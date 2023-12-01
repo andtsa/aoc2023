@@ -1,0 +1,20 @@
+use crate::PART;
+
+// Solution day xx
+pub fn solve(input : String, part : PART) -> String {
+    match part {
+        PART::ONE => {part_one(input)}
+        PART::TWO => {part_two(input)}
+    }
+}
+pub fn part_one(input : String) -> String {
+    let mut result : String = String::new();
+
+    return result;
+}
+
+pub fn part_two(input : String) -> String {
+    let mut result : String = String::new();
+
+    return result;
+}
