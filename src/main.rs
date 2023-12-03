@@ -1,11 +1,12 @@
+mod day02;
 mod day01;
 mod day00;
 use std::time::Instant;
 
-const DAY: &str = "01";
+const DAY: &str = "02";
 
 fn run(input : String, part: PART) -> String {
-    return day01::solve(input, part);
+    return day02::solve(input, part);
 }
 fn main() {
     println!("Starting Advent of Code 2023 day {}...", DAY);

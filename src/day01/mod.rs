@@ -3,12 +3,7 @@ use regex::Regex;
 
 
 // Solution day 01
-pub fn solve(input : String, part : PART) -> String {
-    match part {
-        PART::ONE => {part_one(input)}
-        PART::TWO => {part_two(input)}
-    }
-}
+pub fn solve(input : String, part : PART) -> String {match part { PART::ONE => {part_one(input)}PART::TWO => {part_two(input)}}}
 pub fn part_one(input : String) -> String {
     let re = Regex::new(r"\d").unwrap();
     let mut r = vec![];
